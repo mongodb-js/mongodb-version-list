@@ -11,7 +11,7 @@ var VERSION_REGEX = /[0-9]+\.[0-9]+\.[0-9]+([-_\.][a-zA-Z0-9]+)?/;
 // expire versions cache page every hour
 var CACHE_TIME = 60 * 60 * 1000;
 
-var CACHE_FILE = path.resolve(cacheDir + '/dl.mongodb.org/dl/src');
+var CACHE_FILE = path.resolve(cacheDir + '/dl.mongodb.org/dl/src/index.html');
 
 var cacheCleanup = function(opts, done) {
   if (typeof opts === 'function') {
