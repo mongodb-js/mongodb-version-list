@@ -14,7 +14,7 @@ if (args.debug) {
 var getList = require('../');
 var pkg = require('../package.json');
 
-if (args.help || args.h || !args.path) {
+if (args.help || args.h) {
   console.error(usage);
   process.exit(1);
 }
