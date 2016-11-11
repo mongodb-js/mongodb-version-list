@@ -1,6 +1,6 @@
 {
   "name": "mongodb-version-list",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Get a list of available MongoDB versions",
   "scripts": {
     "check": "mongodb-js-precommit",
